@@ -4,52 +4,27 @@ A collection of **interactive data visualization projects** built with **Google 
 Each dashboard provides actionable insights from business datasets such as *Credit Card* and *Superstore Sales*.
 
 ## 📁 Project List
-1. **Credit Card Performance Dashboard**
-   An interactive Looker Studio dashboard built to analyze customer demographics, spending habits, and credit performance of 10K+ credit card users.
+1. Credit Card Performance Dashboard
 
-   **Project Overview**
-   This project analyzes customer demographics, spending behavior, and credit risk to help a credit card company optimize its customer segmentation and credit policy. Using Looker
-   Studio, I visualized key metrics such as transaction volume, delinquency rate, and spending distribution across education, occupation, and region.
+An interactive Looker Studio dashboard built to analyze customer demographics, spending habits, and credit performance of 10K+ credit card users.
 
-   **Objective**
-   To identify which customer groups drive the highest revenue and which contribute most to credit risk — supporting data-driven strategies to increase profitability and reduce
-   delinquency.
+Dataset & Tools
+- Dataset: Credit Card Customer Data
+- Tools: Google Sheets (data cleaning), Looker Studio (visualization & dashboarding)
+- Techniques: Descriptive, Comparative, and Geospatial Analysis
 
-  ** Dataset & Methods**
-   - Dataset: Credit Card dataset
-   - Data Preparation: Cleaned and aggregated data using Google Sheets before visualization.
-   - Visualization Tool: Google Looker Studio
-   - Methods: Used cross-tab, percentage calculation, and heatmap tables to reveal transaction and risk patterns.
+Key Insights
+- 5,054 customers generated 326K+ transactions worth USD 22.31M, but avg. satisfaction remains low (2.25).
+- Majority are married (51%), bachelor’s degree holders (41%), and self-employed/business professionals (43%).
+- Oregon & Pennsylvania show the highest delinquency (33% and 20%), indicating localized credit risk.
 
-   **Tools:**
-   - Google Looker Studio — dashboard visualization
-   - Google Sheets — data cleaning and aggregation
-   - Excel — data structuring logic
+Impact
 
-   **Insights**
-   - Married customers (58%) generate 63% of total spending, showing more stable financial behavior.
-   - Bachelor’s degree holders (45%) contribute nearly 48% of total transaction volume, the highest among all education levels.
-   - Self-employed (32%) and businessmen (24%) together account for 56% of total transactions.
-   - Oregon (33%) and Pennsylvania (20%) show the highest delinquency rates.
-   - Uneducated (9%) and Unknown (11%) segments have the lowest repayment performance.
-   - Total transaction value reached $5.8M, up 18% compared to the previous quarter.
-   - Businessmen pay the highest average annual fee ($83.6K) among all occupations.
-
-   **Recommendations**
-   - Focus risk control on high-delinquency states (Oregon, Pennsylvania).
-   - Provide flexible payment plans and loyalty rewards for self-employed and business customers.
-   - Launch financial literacy campaigns targeting low-education customers to reduce delinquency by 8–10%.
-   - Promote premium-tier cards for high-spending, educated customers to boost revenue by up to 12%.
-
-   **Impact Summary**
-   The dashboard delivers a clear overview of customer behavior and credit risk, enabling targeted policy improvement.By implementing insights from this analysis, the company could
-   achieve:
-   - 10–15% reduction in delinquency rate
-   - Up to 12% increase in fee-based revenue
-   - Improved segmentation and customer retention
+Empowered the company to implement region-based risk management, targeted loyalty programs, and tailored marketing strategies, improving customer retention and engagement.
      
-2. **Superstore Dashboard**
-   Interactive dashboard analyzing Superstore’s sales and profit performance to uncover category dominance, seasonal trends, and revenue optimization strategies.
+2. Superstore Dashboard
+
+Interactive dashboard analyzing Superstore’s sales and profit performance to uncover category dominance, seasonal trends, and revenue optimization strategies.
 
 Data & Method
 - Source: DQLab Superstore Dataset
